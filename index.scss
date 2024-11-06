@@ -1,0 +1,19 @@
+@import "reset";
+@import "mixins";
+@import "buttons";
+@import "colors";
+@import "fonts";
+@import "spacing";
+@import "animations";
+
+.grid {
+    @include grid(3)
+}
+
+.bgColor {
+    background-color: $bg_hero;
+}
+
+.animate {
+    @include fadeInUp ()
+}

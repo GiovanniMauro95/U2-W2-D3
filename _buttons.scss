@@ -1,0 +1,20 @@
+$blue_button: #0e6ff1;
+$orange-button: #f87d00;
+$greenButton: #4ca150;
+
+@each $name, $color in (
+  first: $blue_button,
+  second: $orange-button,
+  third: $greenButton
+) {
+    .btn-#{$name} {
+        background-color: $color;
+        color: whitesmoke;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        text-align: center;
+        font-weight: bold;
+    }
+}

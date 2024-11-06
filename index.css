@@ -1,0 +1,232 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.btn-first {
+  background-color: #0e6ff1;
+  color: whitesmoke;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  text-align: center;
+  font-weight: bold;
+}
+
+.btn-second {
+  background-color: #f87d00;
+  color: whitesmoke;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  text-align: center;
+  font-weight: bold;
+}
+
+.btn-third {
+  background-color: #4ca150;
+  color: whitesmoke;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  text-align: center;
+  font-weight: bold;
+}
+
+.padding-block-sm {
+  padding-block: 8px;
+}
+
+.padding-inline-sm {
+  padding-inline: 8px;
+}
+
+.margin-block-sm {
+  margin-block: 8px;
+}
+
+.margin-inline-sm {
+  margin-inline: 8px;
+}
+
+.total-margin-sm {
+  margin: 4px 8px;
+}
+
+.padding-block-normal {
+  padding-block: 16px;
+}
+
+.padding-inline-normal {
+  padding-inline: 16px;
+}
+
+.margin-block-normal {
+  margin-block: 16px;
+}
+
+.margin-inline-normal {
+  margin-inline: 16px;
+}
+
+.total-margin-normal {
+  margin: 8px 16px;
+}
+
+.padding-block-md {
+  padding-block: 24px;
+}
+
+.padding-inline-md {
+  padding-inline: 24px;
+}
+
+.margin-block-md {
+  margin-block: 24px;
+}
+
+.margin-inline-md {
+  margin-inline: 24px;
+}
+
+.total-margin-md {
+  margin: 12px 24px;
+}
+
+.padding-block-lg {
+  padding-block: 32px;
+}
+
+.padding-inline-lg {
+  padding-inline: 32px;
+}
+
+.margin-block-lg {
+  margin-block: 32px;
+}
+
+.margin-inline-lg {
+  margin-inline: 32px;
+}
+
+.total-margin-lg {
+  margin: 16px 32px;
+}
+
+.padding-block-xl {
+  padding-block: 40px;
+}
+
+.padding-inline-xl {
+  padding-inline: 40px;
+}
+
+.margin-block-xl {
+  margin-block: 40px;
+}
+
+.margin-inline-xl {
+  margin-inline: 40px;
+}
+
+.total-margin-xl {
+  margin: 20px 40px;
+}
+
+.padding-block-xxl {
+  padding-block: 48px;
+}
+
+.padding-inline-xxl {
+  padding-inline: 48px;
+}
+
+.margin-block-xxl {
+  margin-block: 48px;
+}
+
+.margin-inline-xxl {
+  margin-inline: 48px;
+}
+
+.total-margin-xxl {
+  margin: 24px 48px;
+}
+
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+}
+.grid > * {
+  flex: 0 1 calc(100% / 3);
+  margin: 0 1rem 1rem 0;
+}
+.grid > *:nth-child(3n) {
+  margin-right: 0;
+}
+
+.bgColor {
+  background-color: #640fc5;
+}
+
+.animate {
+  animation: fadeInUp 3s ease-out 0s forwards;
+}
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}/*# sourceMappingURL=index.css.map */

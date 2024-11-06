@@ -1,0 +1,45 @@
+
+$spacing-sm: 8px;
+$spacing-normal: 16px;
+$spacing-md: 24px;
+$spacing-lg: 32px;
+$spacing-xl: 40px;
+$spacing-xxl: 48px;
+
+
+$spacings: (
+  sm: $spacing-sm,
+  normal: $spacing-normal,
+  md: $spacing-md,
+  lg: $spacing-lg,
+  xl: $spacing-xl,
+  xxl: $spacing-xxl
+);
+
+
+@each $size, $value in $spacings {
+  
+
+  .padding-block-#{$size} {
+    padding-block: $value;
+  }
+
+  
+  .padding-inline-#{$size} {
+    padding-inline: $value;
+  }
+
+  
+  .margin-block-#{$size} {
+    margin-block: $value;
+  }
+
+  
+  .margin-inline-#{$size} {
+    margin-inline: $value;
+  }
+
+  .total-margin-#{$size} {
+    margin: $value/2 $value;
+  }
+}

@@ -1,0 +1,21 @@
+@mixin fadeInUp(
+  $duration: 3s,         
+  $from: 30px,           
+  $to: 0px,              
+  $delay: 0s,            
+  $name: 'fadeInUp'    
+) {
+  
+  @keyframes #{$name} {
+    0% {
+      opacity: 0;
+      transform: translateY(#{$from}); 
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(#{$to});   
+    }
+  }
+
+  animation: #{$name} $duration ease-out $delay forwards;
+}
